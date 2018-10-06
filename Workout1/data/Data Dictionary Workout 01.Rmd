@@ -1,0 +1,56 @@
+---
+title: "nba2018-Dictionary.md"
+author: "Dominik Tortes"
+date: "October 2, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+##Data Dictionary for Workout01
+
+###Main Source Data
+
+(www.basketball-references.com)
+
+(https://www.basketball-reference.com/teams/GSW/2018.html)
+
+### Variables
+
+* player: First and Last name of players
+* number: Number on jersey
+* Team: 3-letter team abbreviation
+* position: player's position
+* height: height in feet-inches
+* weight: weight in pounds
+* birth_date: date of birth ("Month day, year")
+* country: 2-letter country abbreviation
+* experience: years of experience in NBA (a value of R means rookie)
+* college: attended college in USA
+* salary: player salary in dollars
+* rank: Rank of player in his team
+* age: Age of player at the start of Feburary 1st of that season
+* games: Games played during regular season
+* games_started: Games Started
+* minutes: Minutes Played during regular season
+* field_goals: Field Goals Made
+* field_goals_atts: Field Goal Attempts
+* field_goal_perc: Field Goal Percentage
+* points3: 3-Point Field Goals
+* points3_atts: 3-Point Field Goal Attempts
+* points3_perc: 3-Point Field Goal Percentage
+* effective_field_goal_perc: Effective Field Goal Percentage
+* points1: Free Throws Made
+* points1_atts: Free Throw Attempts
+* points1_perc: Free Throw Percentage
+* off_rebounds: Offensive Rebounds
+* def_rebounds: Defensive Rebounds
+* assists: Assists
+* steals: Steals
+* blocks: Blocks
+* turnovers: Turnovers
+* fouls: Fouls
+* points: Total Points

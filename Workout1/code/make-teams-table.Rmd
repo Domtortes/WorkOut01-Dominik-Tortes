@@ -1,0 +1,13 @@
+---
+title: "Workout01 make-teams-table"
+author: "Dominik Tortes"
+date: "October 2, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library("readr")
+read.csv("https://raw.githubusercontent.com/ucb-stat133/stat133-fall-2018/master/data/nba2018.csv")
+```
+
